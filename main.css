@@ -102,6 +102,11 @@ body,html
 	width: 180px;
 	height: 180px;
 } 
+.tt img:hover
+{
+	transform: scale(1.1);
+	transition: 0.4s;
+}
 .tt h2
 {
 	color: white;
@@ -124,7 +129,19 @@ body,html
     background: black;
     border: none;
     color: white;
+	border:1px ;
     border-radius: 0px;
+    transition: 0.4s;
+    font-weight: bold;
+}
+.tt a.btn.btn-primary:hover 
+{
+   border-radius: 0px;
+   border:0px solid white;
+	background: white;
+	font-weight: bold;
+	color:black;
+	transition: 0.4s;
 }
 @media (max-width: 767px)
 {
